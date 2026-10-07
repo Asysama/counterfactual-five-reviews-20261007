@@ -1,0 +1,132 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.44999998807907104,
+      0.0,
+      1.5
+    ],
+    "pos": [
+      1.1812160015106201,
+      -6.0,
+      3.7799999713897705
+    ],
+    "projection": "perspective"
+  },
+  "category": "spring_launch",
+  "descriptions": {
+    "counterfactual": "An exposed compressed spring beneath a guided seat launches a ball when its latch retracts. A fixed side gauge marks the maximum ball-center height allowed by the initially stored spring energy. The spring extends and the ball separates from the seat, but the ball gains excess launch energy and its center rises above the energy-limit mark before falling back onto the stopped seat and resting.",
+    "true": "An exposed compressed spring beneath a guided seat launches a ball when its latch retracts. A fixed side gauge marks the maximum ball-center height allowed by the initially stored spring energy. The spring extends, the ball separates from the seat, rises below the energy-limit mark, then falls back onto the stopped seat and rests."
+  },
+  "evidence_frame": 43,
+  "first_changed_frame": 40,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench analytical replay",
+    "git": "c2f1de2344f517c7a46fd8e8de05f87364a3ace5",
+    "source_hashes": {
+      "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/geometry.py": "a46d2c837a0b13d35fc75534324873befbae1ba6ff331608d2ed96909ef36165",
+      "engine/media.py": "46dd6adb824154d94efd1a9d5df6de95e19aab5775450d349ff3598ddbf3da06",
+      "engine/run.py": "6393b79816424296c6e4b0f55ac6b88858045d44c0d6c06a77fbc28d932dc866",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "48aaf22fee1a2349eb3ee8d389ab8a087905de3ab2381a30b0f5dd4617f2faab",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "4024922178a980a7e1b71dbf45a45e1ad8cfd1b79e49b8f417b5f4ed184b971d",
+      "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/phenomenon.py": "801b227191653f236f22e495c737ca19a17eec2e5ff539d848731eeef8e9a227",
+      "src/scaling.py": "185ee1d66de0a7db3bc0e6241b731dedf847501247559f651afd5bf095b94415",
+      "src/violation.py": "b9b4e0c7ece69ab96bd8e0f9093a6de730eb5058b4580fc47a84d142d3bd88f9",
+      "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tests/test_physics.py": "da724593b7c456312cd1390942efb0064a2438b2c85d514144060c18a02c8b42"
+    }
+  },
+  "intervention_frame": 40,
+  "mask_end_frame": 65,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 40,
+  "onset_frame": 40,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_separation_velocity_energy_injection/mask.mp4",
+      "mask_overlay": "counterfactual_separation_velocity_energy_injection/mask_overlay.mp4",
+      "prompt": "counterfactual_separation_velocity_energy_injection/prompt.txt",
+      "trajectory": "counterfactual_separation_velocity_energy_injection/trajectory.npz",
+      "video": "counterfactual_separation_velocity_energy_injection/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "spring_launch_stored_energy_excess",
+  "phenomenon_data": {
+    "scene_params": {
+      "appearance": 0,
+      "ball_radius": 0.1449689420593321,
+      "base": 0.25,
+      "compression": 0.466,
+      "detail": 1.0354924432809436,
+      "energy_height": 0.9945,
+      "energy_limit": 1.887468942059332,
+      "gain": 1.6,
+      "gravity": 9.81,
+      "k": 10.782344489675625,
+      "length": 3.5,
+      "mass": 0.12,
+      "natural_height": 0.9,
+      "onset": 35,
+      "response": 1.105,
+      "separation_time": 0.19851712049738965,
+      "separation_velocity": 3.2201195629976227,
+      "view": 8
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "Does the ball stay below the stored-energy height limit?",
+        "Does the ball center rise above the marked energy limit?"
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "peak energy does not exceed initial spring-plus-gravity energy"
+        ],
+        "violation_if_true": [
+          "ball peak exceeds passive stored-energy bound"
+        ]
+      },
+      "violation_types": [
+        "separation_velocity_energy_injection"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 98,
+  "task_id": "spring_launch_stored_energy_excess_00000098",
+  "timebase": {
+    "internal_substeps": null,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "analytical",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "separation_velocity_energy_injection"
+}

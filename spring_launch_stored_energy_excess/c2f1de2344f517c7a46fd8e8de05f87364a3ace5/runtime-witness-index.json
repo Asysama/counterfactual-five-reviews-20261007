@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "621f08b0d22b79735bad2f2ff72f4d44eaff7ec505e1f9c967e90bb5161c0c5e": {
+      "path": "runtime-witness.json",
+      "sha256": "621f08b0d22b79735bad2f2ff72f4d44eaff7ec505e1f9c967e90bb5161c0c5e",
+      "generator": "spring_launch_stored_energy_excess",
+      "case_set": "seeds42,98",
+      "source_commit": "c2f1de2344f517c7a46fd8e8de05f87364a3ace5"
+    }
+  },
+  "cases": {
+    "spring_launch_stored_energy_excess_00000042": {
+      "witness_id": "621f08b0d22b79735bad2f2ff72f4d44eaff7ec505e1f9c967e90bb5161c0c5e",
+      "metadata_path": "spring_launch_stored_energy_excess_00000042/metadata.json",
+      "metadata_sha256": "bf5da4c50a49ad8957eeab9daef4ba88604f55db0ad0eaab65d2272adc1cf28f"
+    },
+    "spring_launch_stored_energy_excess_00000098": {
+      "witness_id": "621f08b0d22b79735bad2f2ff72f4d44eaff7ec505e1f9c967e90bb5161c0c5e",
+      "metadata_path": "spring_launch_stored_energy_excess_00000098/metadata.json",
+      "metadata_sha256": "4c484f83497dbdce593c67b1aea1267d0bee5c0a817dc0c6f0d636865d806832"
+    }
+  },
+  "failures": []
+}
