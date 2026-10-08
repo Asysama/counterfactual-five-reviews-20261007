@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "6cba46f14f47e2469762ec5bfec85ee8fc37005b5593665956414d11b52e2fc3": {
+      "path": "runtime-witness.json",
+      "sha256": "6cba46f14f47e2469762ec5bfec85ee8fc37005b5593665956414d11b52e2fc3",
+      "generator": "tensioned_elastic_rod_lateral_instability",
+      "case_set": "seeds42,98",
+      "source_commit": "c11f4095f6b510df304154ce3a7d6dcc49bb99e5"
+    }
+  },
+  "cases": {
+    "tensioned_elastic_rod_lateral_instability_00000042": {
+      "witness_id": "6cba46f14f47e2469762ec5bfec85ee8fc37005b5593665956414d11b52e2fc3",
+      "metadata_path": "tensioned_elastic_rod_lateral_instability_00000042/metadata.json",
+      "metadata_sha256": "bbdb5c24d08786cf3b840fa4f6e05a9478474c8159d8aa599408df635118eeb9"
+    },
+    "tensioned_elastic_rod_lateral_instability_00000098": {
+      "witness_id": "6cba46f14f47e2469762ec5bfec85ee8fc37005b5593665956414d11b52e2fc3",
+      "metadata_path": "tensioned_elastic_rod_lateral_instability_00000098/metadata.json",
+      "metadata_sha256": "3e98fd7f24851df2ae932998eebe175ef3d7140aa83c62af9971c0e636bec486"
+    }
+  },
+  "failures": []
+}

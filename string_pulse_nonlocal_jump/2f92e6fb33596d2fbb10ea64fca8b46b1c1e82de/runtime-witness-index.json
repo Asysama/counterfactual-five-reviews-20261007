@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "21a254defebe4eced520822084cdb8a27aaaa030b51f1a4155bb5f91bd29e798": {
+      "path": "runtime-witness.json",
+      "sha256": "21a254defebe4eced520822084cdb8a27aaaa030b51f1a4155bb5f91bd29e798",
+      "generator": "string_pulse_nonlocal_jump",
+      "case_set": "seeds42,98",
+      "source_commit": "2f92e6fb33596d2fbb10ea64fca8b46b1c1e82de"
+    }
+  },
+  "cases": {
+    "string_pulse_nonlocal_jump_00000042": {
+      "witness_id": "21a254defebe4eced520822084cdb8a27aaaa030b51f1a4155bb5f91bd29e798",
+      "metadata_path": "string_pulse_nonlocal_jump_00000042/metadata.json",
+      "metadata_sha256": "83b6b218951a5c005fedecd6a8b684e23e96cd5d97bb91ac61e7ee9c6964d0f1"
+    },
+    "string_pulse_nonlocal_jump_00000098": {
+      "witness_id": "21a254defebe4eced520822084cdb8a27aaaa030b51f1a4155bb5f91bd29e798",
+      "metadata_path": "string_pulse_nonlocal_jump_00000098/metadata.json",
+      "metadata_sha256": "384dbbd4dbe32556f43d37c7fa1ab473c4c5edf6ad4b7abb8b2107a37862fc15"
+    }
+  },
+  "failures": []
+}

@@ -1,0 +1,126 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.0,
+      0.0,
+      1.5
+    ],
+    "pos": [
+      0.8835527300834656,
+      -7.25,
+      4.255000114440918
+    ],
+    "projection": "perspective"
+  },
+  "category": "tensioned_elastic_rod",
+  "descriptions": {
+    "counterfactual": "A slender elastic rod has a small initial sideways bow and is held by centered end grips on axial guides. Outward arrows mark the increasing axial tensile forces applied by the grips; there is no sideways load. Its sideways bow grows under the increasing tensile force, while it remains connected to both grips and does not break.",
+    "true": "A slender elastic rod has a small initial sideways bow and is held by centered end grips on axial guides. Outward arrows mark the increasing axial tensile forces applied by the grips; there is no sideways load. The rod becomes straighter while remaining connected to both grips."
+  },
+  "evidence_frame": 50,
+  "first_changed_frame": 36,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench analytical replay",
+    "git": "c11f4095f6b510df304154ce3a7d6dcc49bb99e5",
+    "source_hashes": {
+      "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/geometry.py": "a46d2c837a0b13d35fc75534324873befbae1ba6ff331608d2ed96909ef36165",
+      "engine/media.py": "46dd6adb824154d94efd1a9d5df6de95e19aab5775450d349ff3598ddbf3da06",
+      "engine/run.py": "6393b79816424296c6e4b0f55ac6b88858045d44c0d6c06a77fbc28d932dc866",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "48aaf22fee1a2349eb3ee8d389ab8a087905de3ab2381a30b0f5dd4617f2faab",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "a7a18d914ec16ed9ebd1f977cb1db1a2b7d769ca6d433a1a41e50a0c201a1256",
+      "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/phenomenon.py": "7af55d5f55a0545905f2eb9bced8bbe9d1213a610bc9d03114baf93af94d163c",
+      "src/scaling.py": "185ee1d66de0a7db3bc0e6241b731dedf847501247559f651afd5bf095b94415",
+      "src/violation.py": "4b2c14c8127f3017f90fdb8725818c919a4b904b261b6ecf96e69b4ebf04d787",
+      "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tests/test_physics.py": "da724593b7c456312cd1390942efb0064a2438b2c85d514144060c18a02c8b42"
+    }
+  },
+  "intervention_frame": 36,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 36,
+  "onset_frame": 36,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_negative_tensile_geometric_stiffness/mask.mp4",
+      "mask_overlay": "counterfactual_negative_tensile_geometric_stiffness/mask_overlay.mp4",
+      "prompt": "counterfactual_negative_tensile_geometric_stiffness/prompt.txt",
+      "trajectory": "counterfactual_negative_tensile_geometric_stiffness/trajectory.npz",
+      "video": "counterfactual_negative_tensile_geometric_stiffness/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "tensioned_elastic_rod_lateral_instability",
+  "phenomenon_data": {
+    "scene_params": {
+      "appearance": 0,
+      "bow": 0.1449689420593321,
+      "detail": 1.0354924432809436,
+      "duration": 2.0,
+      "gravity": 9.81,
+      "length": 3.5,
+      "load_ratio": 0.4726,
+      "onset": 35,
+      "radius": 0.045,
+      "response": 1.105,
+      "view": 8,
+      "young": 2000000000.0
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "Does axial tension reduce the rods initial sideways bow?",
+        "Does the rod bow farther sideways under pure axial tension?"
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "bow decreases under axial tension"
+        ],
+        "violation_if_true": [
+          "bow grows under axial tension below failure"
+        ]
+      },
+      "violation_types": [
+        "negative_tensile_geometric_stiffness"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 98,
+  "task_id": "tensioned_elastic_rod_lateral_instability_00000098",
+  "timebase": {
+    "internal_substeps": null,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "analytical",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "negative_tensile_geometric_stiffness"
+}

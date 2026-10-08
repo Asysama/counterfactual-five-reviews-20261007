@@ -1,0 +1,1 @@
+A slender elastic rod has a small initial sideways bow and is held by centered end grips on axial guides. Outward arrows mark the increasing axial tensile forces applied by the grips; there is no sideways load. Its sideways bow grows under the increasing tensile force, while it remains connected to both grips and does not break.

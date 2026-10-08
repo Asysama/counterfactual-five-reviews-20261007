@@ -1,0 +1,126 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.0,
+      0.0,
+      1.5
+    ],
+    "pos": [
+      -1.7242650985717773,
+      -17.989999771118164,
+      8.336200714111328
+    ],
+    "projection": "perspective"
+  },
+  "category": "string_pulse",
+  "descriptions": {
+    "counterfactual": "A single transverse pulse moves to the right along an intact elastic string anchored at both ends. The whole pulse suddenly jumps to a farther section without crossing the intervening span; there is still only one pulse, and it then continues moving right at its original speed.",
+    "true": "A single transverse pulse moves to the right along an intact elastic string anchored at both ends. The pulse passes continuously through each intervening part of the string and remains visible before reaching the far anchor."
+  },
+  "evidence_frame": 31,
+  "first_changed_frame": 31,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench analytical replay",
+    "git": "2f92e6fb33596d2fbb10ea64fca8b46b1c1e82de",
+    "source_hashes": {
+      "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/geometry.py": "a46d2c837a0b13d35fc75534324873befbae1ba6ff331608d2ed96909ef36165",
+      "engine/media.py": "46dd6adb824154d94efd1a9d5df6de95e19aab5775450d349ff3598ddbf3da06",
+      "engine/run.py": "6393b79816424296c6e4b0f55ac6b88858045d44c0d6c06a77fbc28d932dc866",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "48aaf22fee1a2349eb3ee8d389ab8a087905de3ab2381a30b0f5dd4617f2faab",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "a7a18d914ec16ed9ebd1f977cb1db1a2b7d769ca6d433a1a41e50a0c201a1256",
+      "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/phenomenon.py": "3e1fcd2217f606b9a0a7a21ee56f2368ba8bc1c238e6f187427f8b7832703b2d",
+      "src/scaling.py": "185ee1d66de0a7db3bc0e6241b731dedf847501247559f651afd5bf095b94415",
+      "src/violation.py": "376a5f537ebc3464508ec9a70e6a5251726e4a641de679ab5fba114ff4603621",
+      "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tests/test_physics.py": "da724593b7c456312cd1390942efb0064a2438b2c85d514144060c18a02c8b42"
+    }
+  },
+  "intervention_frame": 31,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 31,
+  "onset_frame": 31,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_nonlocal_pulse_state_translation/mask.mp4",
+      "mask_overlay": "counterfactual_nonlocal_pulse_state_translation/mask_overlay.mp4",
+      "prompt": "counterfactual_nonlocal_pulse_state_translation/prompt.txt",
+      "trajectory": "counterfactual_nonlocal_pulse_state_translation/trajectory.npz",
+      "video": "counterfactual_nonlocal_pulse_state_translation/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "string_pulse_nonlocal_jump",
+  "phenomenon_data": {
+    "scene_params": {
+      "amplitude": 0.22555,
+      "appearance": 7,
+      "detail": 1.021916483884477,
+      "gravity": 9.81,
+      "jump": 2.7739999999999996,
+      "length": 4.1,
+      "onset": 31,
+      "response": 0.7899999999999999,
+      "span": 10.66,
+      "speed": 0.5569999999999999,
+      "view": 3,
+      "width": 0.837971516785271
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "Does the pulse travel continuously through the intervening span?",
+        "Does the single pulse suddenly reappear farther along the intact string?"
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "pulse position continuous at wave speed"
+        ],
+        "violation_if_true": [
+          "pulse displacement and velocity translated once without traversing gap"
+        ]
+      },
+      "violation_types": [
+        "nonlocal_pulse_state_translation"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 42,
+  "task_id": "string_pulse_nonlocal_jump_00000042",
+  "timebase": {
+    "internal_substeps": null,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "analytical",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "nonlocal_pulse_state_translation"
+}

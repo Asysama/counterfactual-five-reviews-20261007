@@ -1,0 +1,1 @@
+A single transverse pulse moves to the right along an intact elastic string anchored at both ends. The whole pulse suddenly jumps to a farther section without crossing the intervening span; there is still only one pulse, and it then continues moving right at its original speed.
