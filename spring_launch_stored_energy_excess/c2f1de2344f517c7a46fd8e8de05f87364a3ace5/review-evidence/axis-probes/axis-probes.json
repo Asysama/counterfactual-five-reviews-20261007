@@ -1,0 +1,248 @@
+{
+  "generator": "spring_launch_stored_energy_excess",
+  "commit": "c2f1de2344f517c7a46fd8e8de05f87364a3ace5",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct  3 2026, 01:05:36) [Clang 22.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    512,
+    512
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 4.1,
+        "response": 0.7899999999999999,
+        "onset": 31,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "compression": 0.502,
+        "mass": 0.12,
+        "ball_radius": 0.14306830774382678,
+        "natural_height": 0.9,
+        "base": 0.25,
+        "energy_height": 0.711,
+        "gain": 1.6,
+        "k": 6.642665989428739,
+        "separation_time": 0.2886996844782471,
+        "separation_velocity": 2.0249888888584056,
+        "energy_limit": 1.5660683077438269
+      },
+      "images": {
+        "baseline-true-35.png": "60882a4eb102c8b50bf7632dde50d70f3795aa5aecceaa035cb2b0f9744b4859",
+        "baseline-true-90.png": "68eb501641fcdca598e6c76bfea36ce3794d5cf4d691bdf74000da9893b2fa49",
+        "baseline-counterfactual-35.png": "da0abcb06531de3e3762d695a7fd6b98c711811fc9f254fb79a943c06cfb92a7",
+        "baseline-counterfactual-90.png": "68eb501641fcdca598e6c76bfea36ce3794d5cf4d691bdf74000da9893b2fa49"
+      },
+      "metrics": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 3.4,
+        "response": 0.7899999999999999,
+        "onset": 31,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "compression": 0.46,
+        "mass": 0.12,
+        "ball_radius": 0.14306830774382678,
+        "natural_height": 0.9,
+        "base": 0.25,
+        "energy_height": 0.711,
+        "gain": 1.6,
+        "k": 7.911051039697542,
+        "separation_time": 0.25486546813281435,
+        "separation_velocity": 2.2191484853429713,
+        "energy_limit": 1.6080683077438267
+      },
+      "images": {
+        "length_low-true-35.png": "59c6b4fbc23526da3a32fe8c956150e4ee574f050194e220b14e2112546caaec",
+        "length_low-true-90.png": "626138ef0138900673498967c9ca82688acde32f6aaff790ff5001c11d19a9c8",
+        "length_low-counterfactual-35.png": "18b5cf24ba769fe574392d29d6f3a2e9e70d5f3fbe23aae2e974155b9e28f1f7",
+        "length_low-counterfactual-90.png": "626138ef0138900673498967c9ca82688acde32f6aaff790ff5001c11d19a9c8"
+      },
+      "metrics": {
+        "true-35": 0.5845184326171875,
+        "true-90": 0.2592811584472656,
+        "counterfactual-35": 0.5845184326171875,
+        "counterfactual-90": 0.2592811584472656
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 4.3,
+        "response": 0.7899999999999999,
+        "onset": 31,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "compression": 0.514,
+        "mass": 0.12,
+        "ball_radius": 0.14306830774382678,
+        "natural_height": 0.9,
+        "base": 0.25,
+        "energy_height": 0.711,
+        "gain": 1.6,
+        "k": 6.336123181274509,
+        "separation_time": 0.29898283144283705,
+        "separation_velocity": 1.9659959308197974,
+        "energy_limit": 1.5540683077438269
+      },
+      "images": {
+        "length_high-true-35.png": "ec2088d939ed555f9fa2df91dc91e572e00f861c1cba8c7fce1bc022df23c046",
+        "length_high-true-90.png": "953cd482c05bb78c45b86c6c22fb1693624ab022a09ba09e4e190c7f980e8823",
+        "length_high-counterfactual-35.png": "fa1b4dc9ff117afa79946e7131484c0596bddf5fbba2a60faf841c946dd203bc",
+        "length_high-counterfactual-90.png": "953cd482c05bb78c45b86c6c22fb1693624ab022a09ba09e4e190c7f980e8823"
+      },
+      "metrics": {
+        "true-35": 0.23650487263997397,
+        "true-90": 0.09980265299479167,
+        "counterfactual-35": 0.23650487263997397,
+        "counterfactual-90": 0.09980265299479167
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 4.1,
+        "response": 0.7,
+        "onset": 31,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "compression": 0.502,
+        "mass": 0.12,
+        "ball_radius": 0.14306830774382678,
+        "natural_height": 0.9,
+        "base": 0.25,
+        "energy_height": 0.63,
+        "gain": 1.6,
+        "k": 5.885906572911542,
+        "separation_time": 0.327641125995004,
+        "separation_velocity": 1.5847271058450412,
+        "energy_limit": 1.485068307743827
+      },
+      "images": {
+        "response_low-true-35.png": "923d9b46f16c8315cc435b57c1e90d089ae40238d97017cf30e78ae562f5d63c",
+        "response_low-true-90.png": "3311515d4d81d722d7e31876916a8a38bfe39ecfb02f891349001e14e69e0ce7",
+        "response_low-counterfactual-35.png": "923d9b46f16c8315cc435b57c1e90d089ae40238d97017cf30e78ae562f5d63c",
+        "response_low-counterfactual-90.png": "3311515d4d81d722d7e31876916a8a38bfe39ecfb02f891349001e14e69e0ce7"
+      },
+      "metrics": {
+        "true-35": 0.37371826171875,
+        "true-90": 0.1571807861328125,
+        "counterfactual-35": 0.37371826171875,
+        "counterfactual-90": 0.1571807861328125
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 4.1,
+        "response": 1.105,
+        "onset": 31,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "compression": 0.502,
+        "mass": 0.12,
+        "ball_radius": 0.14306830774382678,
+        "natural_height": 0.9,
+        "base": 0.25,
+        "energy_height": 0.9945,
+        "gain": 1.6,
+        "k": 9.291323947238933,
+        "separation_time": 0.21764846337510407,
+        "separation_velocity": 3.1085125060066914,
+        "energy_limit": 1.849568307743827
+      },
+      "images": {
+        "response_high-true-35.png": "2ffbe142e5f59e2e9cee2121e7ba64cd74fc44ab8155141920cfc53a2b90beb2",
+        "response_high-true-90.png": "c0d38992e61d02460f9415d56476b38a51f7fb67c66dba828bd2adcff33e9636",
+        "response_high-counterfactual-35.png": "2ffbe142e5f59e2e9cee2121e7ba64cd74fc44ab8155141920cfc53a2b90beb2",
+        "response_high-counterfactual-90.png": "4215c24019dd54bb0a628b37cd1c7ac0fc42cb47d8440201a5efdb16c19d099a"
+      },
+      "metrics": {
+        "true-35": 0.6271680196126302,
+        "true-90": 0.20126978556315103,
+        "counterfactual-35": 0.6271680196126302,
+        "counterfactual-90": 0.20126978556315103
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 4.1,
+        "response": 0.7899999999999999,
+        "onset": 28,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "compression": 0.502,
+        "mass": 0.12,
+        "ball_radius": 0.14306830774382678,
+        "natural_height": 0.9,
+        "base": 0.25,
+        "energy_height": 0.711,
+        "gain": 1.6,
+        "k": 6.642665989428739,
+        "separation_time": 0.2886996844782471,
+        "separation_velocity": 2.0249888888584056,
+        "energy_limit": 1.5660683077438269
+      },
+      "images": {
+        "onset_low-true-35.png": "1656479615b46096186403df50f50d58eaba2ad4e531226721b448610c16837c",
+        "onset_low-true-90.png": "8a683444377f8ec6a6c63ad4312c93edaa99463625e2bcbb0f12e36d553a0f38",
+        "onset_low-counterfactual-35.png": "419ab877d9862a409d51eda1a9ae773a7b839aa017dd7c157685444e862e923f",
+        "onset_low-counterfactual-90.png": "7c48f0cd8d4e43e591e2ea40ab35bb113d4900d4e208aa2243fc79e93d5eec18"
+      },
+      "metrics": {
+        "true-35": 0.5917332967122396,
+        "true-90": 0.0,
+        "counterfactual-35": 0.5928853352864584,
+        "counterfactual-90": 0.0
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 4.1,
+        "response": 0.7899999999999999,
+        "onset": 37,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "compression": 0.502,
+        "mass": 0.12,
+        "ball_radius": 0.14306830774382678,
+        "natural_height": 0.9,
+        "base": 0.25,
+        "energy_height": 0.711,
+        "gain": 1.6,
+        "k": 6.642665989428739,
+        "separation_time": 0.2886996844782471,
+        "separation_velocity": 2.0249888888584056,
+        "energy_limit": 1.5660683077438269
+      },
+      "images": {
+        "onset_high-true-35.png": "07d9fef1c64b8bb7247495cd4a0b6ae48d7d29a53552ac1e708e9f408925b916",
+        "onset_high-true-90.png": "2042bbcd81495ce052dce4e5ef0752b3ec65d0069d490fdb629cc60d93256b13",
+        "onset_high-counterfactual-35.png": "cb36409f5448accb5987b4059dc3cd51a60aa824f2345f87d08d4e8d6d81f51c",
+        "onset_high-counterfactual-90.png": "2042bbcd81495ce052dce4e5ef0752b3ec65d0069d490fdb629cc60d93256b13"
+      },
+      "metrics": {
+        "true-35": 0.41777801513671875,
+        "true-90": 0.0,
+        "counterfactual-35": 0.41777801513671875,
+        "counterfactual-90": 0.0
+      }
+    }
+  }
+}

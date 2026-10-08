@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "status": "PASS",
+      "case_id": "spring_launch_stored_energy_excess_00000042",
+      "head_sha": "c2f1de2344f517c7a46fd8e8de05f87364a3ace5",
+      "first_changed_frame": 38,
+      "mask_end_frame": 54,
+      "minimum_target_border_px": 766,
+      "physical_witnesses": {
+        "initial_energy": 1.843575611876033,
+        "true_max_energy": 1.8435756118760334,
+        "cf_max_energy": 2.2273898998760333,
+        "true_peak": 1.5659515254069514,
+        "cf_peak": 1.8919301409563778,
+        "energy_limit": 1.5660683077438269,
+        "evidence_frame": 40
+      },
+      "all_120_frames_each_stream_audited": true,
+      "visual_inspection": "PENDING",
+      "browser_playback": "PENDING"
+    },
+    {
+      "status": "PASS",
+      "case_id": "spring_launch_stored_energy_excess_00000098",
+      "head_sha": "c2f1de2344f517c7a46fd8e8de05f87364a3ace5",
+      "first_changed_frame": 40,
+      "mask_end_frame": 65,
+      "minimum_target_border_px": 440,
+      "physical_witnesses": {
+        "initial_energy": 2.2219284385922458,
+        "true_max_energy": 2.221928438592246,
+        "cf_max_energy": 3.1924827505922466,
+        "true_peak": 1.88637985658031,
+        "cf_peak": 2.710768438718309,
+        "energy_limit": 1.887468942059332,
+        "evidence_frame": 43
+      },
+      "all_120_frames_each_stream_audited": true,
+      "visual_inspection": "PENDING",
+      "browser_playback": "PENDING"
+    }
+  ],
+  "note": "Automated results retain their original PENDING visual fields; the separate contributor review records the subsequent actual inspections."
+}

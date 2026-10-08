@@ -319,9 +319,153 @@
       "bytes": 2130,
       "sha256": "5a9b8733014f426d430efc9e002e9030761496f0d3dfa9f3c94b6dcf7c6c7809"
     },
+    "review-evidence/actual-browser-playback.json": {
+      "bytes": 3563,
+      "sha256": "471d1665e8bc8b9d59d539805eb80f151b13691a7c5b0653f80eb8ce5602a75d"
+    },
+    "review-evidence/axis-probes/axis-probes.json": {
+      "bytes": 7604,
+      "sha256": "86918091b109853020846a65a3b8d272587486a54a32c227b9d568c66bcaffc7"
+    },
+    "review-evidence/axis-probes/baseline-counterfactual-35.png": {
+      "bytes": 36316,
+      "sha256": "5673f38dc3a1d1237ba0fb7cfe7e7845ab6871f3c9a0cf284f284882977999c1"
+    },
+    "review-evidence/axis-probes/baseline-counterfactual-90.png": {
+      "bytes": 36427,
+      "sha256": "e445b52b163b39618c39cc0fb5aec8fa1a415ffb11a5bcc547ba2a139599681d"
+    },
+    "review-evidence/axis-probes/baseline-true-35.png": {
+      "bytes": 36310,
+      "sha256": "0401de11dda0b3d00c1e1c2ef9d74057a2f5187e2af0ae1bd0548ebe781374ae"
+    },
+    "review-evidence/axis-probes/baseline-true-90.png": {
+      "bytes": 36310,
+      "sha256": "99c9783d093b851a59a5ab74e45108e84bed01963f42356f306341bf74051a96"
+    },
+    "review-evidence/axis-probes/length_high-counterfactual-35.png": {
+      "bytes": 35765,
+      "sha256": "8449c58e4d49125815c8fe48543cb799ed850fbd7f00e2bbd4f9423332bdb785"
+    },
+    "review-evidence/axis-probes/length_high-counterfactual-90.png": {
+      "bytes": 35771,
+      "sha256": "88b24086fb044c154a787c0f088395ed88e6626c7f956d9699db4108b36e7ea3"
+    },
+    "review-evidence/axis-probes/length_high-true-35.png": {
+      "bytes": 35751,
+      "sha256": "beac18c5272a41c4dff4732d08ecb4438855d2a4e3cb7034091356895c174c9a"
+    },
+    "review-evidence/axis-probes/length_high-true-90.png": {
+      "bytes": 35751,
+      "sha256": "beac18c5272a41c4dff4732d08ecb4438855d2a4e3cb7034091356895c174c9a"
+    },
+    "review-evidence/axis-probes/length_low-counterfactual-35.png": {
+      "bytes": 38869,
+      "sha256": "854592d7e068caa13936fcf0e379a5b205bb1b8dfa2668c5c012ba4ddcc64975"
+    },
+    "review-evidence/axis-probes/length_low-counterfactual-90.png": {
+      "bytes": 38975,
+      "sha256": "0f32e5e6f72956dfc1dbb9b6aa284641f376682ae94761689e64fd65c731381d"
+    },
+    "review-evidence/axis-probes/length_low-true-35.png": {
+      "bytes": 38846,
+      "sha256": "0d69db3988f73bdc4c0ff51ffb3bd628894fe627c2a4053d483da44167d2ab7a"
+    },
+    "review-evidence/axis-probes/length_low-true-90.png": {
+      "bytes": 38846,
+      "sha256": "0d69db3988f73bdc4c0ff51ffb3bd628894fe627c2a4053d483da44167d2ab7a"
+    },
+    "review-evidence/axis-probes/onset_high-counterfactual-35.png": {
+      "bytes": 36321,
+      "sha256": "ba2305de4a46c860f6e6f47ba6cd24c58c2391a8397d428c593f9ff14e9a1295"
+    },
+    "review-evidence/axis-probes/onset_high-counterfactual-90.png": {
+      "bytes": 36303,
+      "sha256": "de409d5ebf6b875199be11ff596d205cfd68de1f1c185143ba738ebba3c03be7"
+    },
+    "review-evidence/axis-probes/onset_high-true-35.png": {
+      "bytes": 36321,
+      "sha256": "9334209247debe60cffac36898c70fde56866c6df22a49dac2b15f2e83e2a6d4"
+    },
+    "review-evidence/axis-probes/onset_high-true-90.png": {
+      "bytes": 36195,
+      "sha256": "990c7ff99eacfe2cde2867cbf50cf46c423dc6ed3460355c21e14b98402e547a"
+    },
+    "review-evidence/axis-probes/onset_low-counterfactual-35.png": {
+      "bytes": 36361,
+      "sha256": "8b167acae61574a87e218610b69bebe8f8922dd6041804aacf5f11b64b5c5b62"
+    },
+    "review-evidence/axis-probes/onset_low-counterfactual-90.png": {
+      "bytes": 36490,
+      "sha256": "dcd124f214779a5e4f4f00b8b0dedcb31a8a4a0b4d5b4b22e05afe3cbc9a6f1d"
+    },
+    "review-evidence/axis-probes/onset_low-true-35.png": {
+      "bytes": 36365,
+      "sha256": "928c11784103a24b1be4c578866ddc1601f647be4518fb8e1c7f2c5b25e4f21a"
+    },
+    "review-evidence/axis-probes/onset_low-true-90.png": {
+      "bytes": 36365,
+      "sha256": "928c11784103a24b1be4c578866ddc1601f647be4518fb8e1c7f2c5b25e4f21a"
+    },
+    "review-evidence/axis-probes/response_high-counterfactual-35.png": {
+      "bytes": 36170,
+      "sha256": "8e3429766ce9ca822de5a21d0c36a145f2c0fb3481562f84f794eeb1f6d56a90"
+    },
+    "review-evidence/axis-probes/response_high-counterfactual-90.png": {
+      "bytes": 36176,
+      "sha256": "c1bad37a112d6d95893543c81a9b0944bff11d9c9da99526cac15cf09553886f"
+    },
+    "review-evidence/axis-probes/response_high-true-35.png": {
+      "bytes": 36177,
+      "sha256": "3e851dac0b135f4453fdb8d20deeef776fc19dcd1f8515034985aec63264f929"
+    },
+    "review-evidence/axis-probes/response_high-true-90.png": {
+      "bytes": 36177,
+      "sha256": "3e851dac0b135f4453fdb8d20deeef776fc19dcd1f8515034985aec63264f929"
+    },
+    "review-evidence/axis-probes/response_low-counterfactual-35.png": {
+      "bytes": 36278,
+      "sha256": "6f3d6843c0a6789907c454ec6b1a99ba049d9bf7582d687cc97858153008a459"
+    },
+    "review-evidence/axis-probes/response_low-counterfactual-90.png": {
+      "bytes": 36419,
+      "sha256": "8256958929052c607d9ec44e5238e3307ed6d065853d21368e59a8024f1a1d93"
+    },
+    "review-evidence/axis-probes/response_low-true-35.png": {
+      "bytes": 36253,
+      "sha256": "57e1807291688a05e1d48e2029613e4e95a84efc6f54db3c823d4a13499aba77"
+    },
+    "review-evidence/axis-probes/response_low-true-90.png": {
+      "bytes": 36253,
+      "sha256": "57e1807291688a05e1d48e2029613e4e95a84efc6f54db3c823d4a13499aba77"
+    },
+    "review-evidence/independent-decoded-physical.json": {
+      "bytes": 1291,
+      "sha256": "87ac30e71a774b6749ac3bc9edf72e87e17848fa151693260d0de8d5c75a2fa0"
+    },
+    "review-evidence/locked_lead_screw_nut_axial_drift-runtime-audit.json": {
+      "bytes": 288,
+      "sha256": "e9ed937231e3e0337a8f246317af98c0b2e2208e03975d53e44ac449a5a78ec1"
+    },
+    "review-evidence/locked_lead_screw_nut_axial_drift-scale.json": {
+      "bytes": 746,
+      "sha256": "231ac9860ea1b717a149941311273e8ed39458f75a3a82df573c2272ec3cc66a"
+    },
+    "review-evidence/locked_lead_screw_nut_axial_drift-tests.log": {
+      "bytes": 98,
+      "sha256": "f62856bf55710418544da7bb61bc3570a1a293c4053b2e85426b8068f0b37ac6"
+    },
+    "review-evidence/resume-check-receipt.json": {
+      "bytes": 1037,
+      "sha256": "979a522190a4a73d95966779a0110943c7122df11d91519d2a11d8a69a31c1f9"
+    },
+    "review-report.md": {
+      "bytes": 10538,
+      "sha256": "228c718eabe43b4ee64010e8e8f4809928f06e844863a9c1ed160fd8ecf02d1c"
+    },
     "review.html": {
-      "bytes": 9713,
-      "sha256": "a651f09d0912c4764689f3e488ca283254c273aaa7453664b4893d85bbdbee47"
+      "bytes": 10042,
+      "sha256": "9ddc97a7f2a795f2f8bee839fa069cb02a89f3ce45ece42ace37a9d0514e01f8"
     },
     "runtime-witness-index.json": {
       "bytes": 1180,

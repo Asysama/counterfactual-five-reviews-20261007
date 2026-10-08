@@ -15,9 +15,153 @@
       "bytes": 2131,
       "sha256": "9e41533a50627f673107e908f07ce99a2ade289d65371b49225750024947b2c4"
     },
+    "review-evidence/actual-browser-playback.json": {
+      "bytes": 6781,
+      "sha256": "215047a697a46c54ae5eab3e2f15b4ebb103987454c2ae5cbdcbd43444c25156"
+    },
+    "review-evidence/axis-probes/axis-probes.json": {
+      "bytes": 9051,
+      "sha256": "772586245e276800f4dde15084e8b47633cb1f18efd2e3bbb79db991763a341d"
+    },
+    "review-evidence/axis-probes/baseline-counterfactual-35.png": {
+      "bytes": 27420,
+      "sha256": "da0abcb06531de3e3762d695a7fd6b98c711811fc9f254fb79a943c06cfb92a7"
+    },
+    "review-evidence/axis-probes/baseline-counterfactual-90.png": {
+      "bytes": 28782,
+      "sha256": "68eb501641fcdca598e6c76bfea36ce3794d5cf4d691bdf74000da9893b2fa49"
+    },
+    "review-evidence/axis-probes/baseline-true-35.png": {
+      "bytes": 27420,
+      "sha256": "60882a4eb102c8b50bf7632dde50d70f3795aa5aecceaa035cb2b0f9744b4859"
+    },
+    "review-evidence/axis-probes/baseline-true-90.png": {
+      "bytes": 28782,
+      "sha256": "68eb501641fcdca598e6c76bfea36ce3794d5cf4d691bdf74000da9893b2fa49"
+    },
+    "review-evidence/axis-probes/length_high-counterfactual-35.png": {
+      "bytes": 27392,
+      "sha256": "fa1b4dc9ff117afa79946e7131484c0596bddf5fbba2a60faf841c946dd203bc"
+    },
+    "review-evidence/axis-probes/length_high-counterfactual-90.png": {
+      "bytes": 28914,
+      "sha256": "953cd482c05bb78c45b86c6c22fb1693624ab022a09ba09e4e190c7f980e8823"
+    },
+    "review-evidence/axis-probes/length_high-true-35.png": {
+      "bytes": 27392,
+      "sha256": "ec2088d939ed555f9fa2df91dc91e572e00f861c1cba8c7fce1bc022df23c046"
+    },
+    "review-evidence/axis-probes/length_high-true-90.png": {
+      "bytes": 28914,
+      "sha256": "953cd482c05bb78c45b86c6c22fb1693624ab022a09ba09e4e190c7f980e8823"
+    },
+    "review-evidence/axis-probes/length_low-counterfactual-35.png": {
+      "bytes": 27915,
+      "sha256": "18b5cf24ba769fe574392d29d6f3a2e9e70d5f3fbe23aae2e974155b9e28f1f7"
+    },
+    "review-evidence/axis-probes/length_low-counterfactual-90.png": {
+      "bytes": 28843,
+      "sha256": "626138ef0138900673498967c9ca82688acde32f6aaff790ff5001c11d19a9c8"
+    },
+    "review-evidence/axis-probes/length_low-true-35.png": {
+      "bytes": 27915,
+      "sha256": "59c6b4fbc23526da3a32fe8c956150e4ee574f050194e220b14e2112546caaec"
+    },
+    "review-evidence/axis-probes/length_low-true-90.png": {
+      "bytes": 28843,
+      "sha256": "626138ef0138900673498967c9ca82688acde32f6aaff790ff5001c11d19a9c8"
+    },
+    "review-evidence/axis-probes/onset_high-counterfactual-35.png": {
+      "bytes": 25816,
+      "sha256": "cb36409f5448accb5987b4059dc3cd51a60aa824f2345f87d08d4e8d6d81f51c"
+    },
+    "review-evidence/axis-probes/onset_high-counterfactual-90.png": {
+      "bytes": 28782,
+      "sha256": "2042bbcd81495ce052dce4e5ef0752b3ec65d0069d490fdb629cc60d93256b13"
+    },
+    "review-evidence/axis-probes/onset_high-true-35.png": {
+      "bytes": 25816,
+      "sha256": "07d9fef1c64b8bb7247495cd4a0b6ae48d7d29a53552ac1e708e9f408925b916"
+    },
+    "review-evidence/axis-probes/onset_high-true-90.png": {
+      "bytes": 28782,
+      "sha256": "2042bbcd81495ce052dce4e5ef0752b3ec65d0069d490fdb629cc60d93256b13"
+    },
+    "review-evidence/axis-probes/onset_low-counterfactual-35.png": {
+      "bytes": 28768,
+      "sha256": "419ab877d9862a409d51eda1a9ae773a7b839aa017dd7c157685444e862e923f"
+    },
+    "review-evidence/axis-probes/onset_low-counterfactual-90.png": {
+      "bytes": 28782,
+      "sha256": "7c48f0cd8d4e43e591e2ea40ab35bb113d4900d4e208aa2243fc79e93d5eec18"
+    },
+    "review-evidence/axis-probes/onset_low-true-35.png": {
+      "bytes": 28792,
+      "sha256": "1656479615b46096186403df50f50d58eaba2ad4e531226721b448610c16837c"
+    },
+    "review-evidence/axis-probes/onset_low-true-90.png": {
+      "bytes": 28782,
+      "sha256": "8a683444377f8ec6a6c63ad4312c93edaa99463625e2bcbb0f12e36d553a0f38"
+    },
+    "review-evidence/axis-probes/response_high-counterfactual-35.png": {
+      "bytes": 28755,
+      "sha256": "2ffbe142e5f59e2e9cee2121e7ba64cd74fc44ab8155141920cfc53a2b90beb2"
+    },
+    "review-evidence/axis-probes/response_high-counterfactual-90.png": {
+      "bytes": 29482,
+      "sha256": "4215c24019dd54bb0a628b37cd1c7ac0fc42cb47d8440201a5efdb16c19d099a"
+    },
+    "review-evidence/axis-probes/response_high-true-35.png": {
+      "bytes": 28755,
+      "sha256": "2ffbe142e5f59e2e9cee2121e7ba64cd74fc44ab8155141920cfc53a2b90beb2"
+    },
+    "review-evidence/axis-probes/response_high-true-90.png": {
+      "bytes": 29482,
+      "sha256": "c0d38992e61d02460f9415d56476b38a51f7fb67c66dba828bd2adcff33e9636"
+    },
+    "review-evidence/axis-probes/response_low-counterfactual-35.png": {
+      "bytes": 27187,
+      "sha256": "923d9b46f16c8315cc435b57c1e90d089ae40238d97017cf30e78ae562f5d63c"
+    },
+    "review-evidence/axis-probes/response_low-counterfactual-90.png": {
+      "bytes": 28781,
+      "sha256": "3311515d4d81d722d7e31876916a8a38bfe39ecfb02f891349001e14e69e0ce7"
+    },
+    "review-evidence/axis-probes/response_low-true-35.png": {
+      "bytes": 27187,
+      "sha256": "923d9b46f16c8315cc435b57c1e90d089ae40238d97017cf30e78ae562f5d63c"
+    },
+    "review-evidence/axis-probes/response_low-true-90.png": {
+      "bytes": 28781,
+      "sha256": "3311515d4d81d722d7e31876916a8a38bfe39ecfb02f891349001e14e69e0ce7"
+    },
+    "review-evidence/independent-decoded-physical.json": {
+      "bytes": 1620,
+      "sha256": "db462f4106bc5f758e429084f1597f87df89bcf5f32a02a6d2e2ca1d67278ebc"
+    },
+    "review-evidence/resume-check-receipt.json": {
+      "bytes": 1037,
+      "sha256": "979a522190a4a73d95966779a0110943c7122df11d91519d2a11d8a69a31c1f9"
+    },
+    "review-evidence/spring_launch_stored_energy_excess-runtime-audit.json": {
+      "bytes": 289,
+      "sha256": "4e388e931c1c2d59376a567dc471bea22dafa8d946704484a6b284f1bf06e75c"
+    },
+    "review-evidence/spring_launch_stored_energy_excess-scale.json": {
+      "bytes": 747,
+      "sha256": "bc11d16d30fcd8417ed79c1c23b20829488f99c96c2e4d00278a8a011f8189ae"
+    },
+    "review-evidence/spring_launch_stored_energy_excess-tests.log": {
+      "bytes": 98,
+      "sha256": "0a97b591ab7ce9644866a9aea8e19c37ff6647585418c546d0481e0cb92bfbc7"
+    },
+    "review-report.md": {
+      "bytes": 11015,
+      "sha256": "f340662f3f11948e079e0f90ac5d204649b6e5d6b0563ae991ae3e3f5cb16696"
+    },
     "review.html": {
-      "bytes": 9993,
-      "sha256": "61a4a0dca6416aa5d13c06b710fc6619258d99fabfc03b53e24cd256ab747d95"
+      "bytes": 10322,
+      "sha256": "bd259440b5f5f8b7c98004c1f2a70ec69149ec7eafb1d6b88c2d8f4d1aac94f1"
     },
     "runtime-witness-index.json": {
       "bytes": 1185,
