@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "status": "PASS",
+      "case_id": "string_pulse_nonlocal_jump_00000042",
+      "head_sha": "8d848b543fb3f28a70ce29a76177520bbdbcdcbb",
+      "first_changed_frame": 31,
+      "mask_end_frame": 120,
+      "minimum_target_border_px": 267,
+      "physical_witnesses": {
+        "jump_distance": 2.7739999999999996,
+        "skipped_unvisited_gap": 1.0980569664294575,
+        "normal_wave_speed": 0.5569999999999999,
+        "interventions": 1,
+        "evidence_frame": 31
+      },
+      "all_120_frames_each_stream_audited": true,
+      "visual_inspection": "PENDING",
+      "browser_playback": "PENDING"
+    },
+    {
+      "status": "PASS",
+      "case_id": "string_pulse_nonlocal_jump_00000098",
+      "head_sha": "8d848b543fb3f28a70ce29a76177520bbdbcdcbb",
+      "first_changed_frame": 35,
+      "mask_end_frame": 120,
+      "minimum_target_border_px": 283,
+      "physical_witnesses": {
+        "jump_distance": 2.9629999999999996,
+        "skipped_unvisited_gap": 1.2647923930192522,
+        "normal_wave_speed": 0.6515,
+        "interventions": 1,
+        "evidence_frame": 35
+      },
+      "all_120_frames_each_stream_audited": true,
+      "visual_inspection": "PENDING",
+      "browser_playback": "PENDING"
+    }
+  ],
+  "note": "Automated results retain their original PENDING visual fields; the separate contributor review records the subsequent actual inspections."
+}
